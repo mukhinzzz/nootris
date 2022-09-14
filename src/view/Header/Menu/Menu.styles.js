@@ -5,15 +5,15 @@ export const Menu = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
-  min-width: 956px;
+  min-width: 944px;
   display: flex;
-  gap: 40px;
-  margin-right: 76px;
+  justify-content: space-between;
+  margin-right: 88px;
 `;
 
 export const MenuItem = styled.li`
   font-size: 18px;
-  padding-right: 6px;
+  /* padding-right: 6px; */
 `;
 
 export const MenuLink = styled.a`

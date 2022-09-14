@@ -31,7 +31,8 @@ export const PriceSection = styled.div`
   margin-top: 80px;
   align-items: center;
   margin-left: 18px;
-  gap: 45px;
+  width: 250px;
+  justify-content: space-between;
 `;
 
 export const NewPrice = styled.span`

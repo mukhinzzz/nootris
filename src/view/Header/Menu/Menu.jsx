@@ -19,7 +19,6 @@ export function Menu() {
         <S.MenuLink href="#">Личный кабинет</S.MenuLink>
       </S.MenuItem>
       <S.MenuItem>
-        {/* Номер ниже написан в макете с ошибкой. Я его не правил */}
         <S.MenuLink href="tel: 888006000990">8 8 (800) 600-09-90</S.MenuLink>
       </S.MenuItem>
     </S.Menu>

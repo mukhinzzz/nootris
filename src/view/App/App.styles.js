@@ -4,7 +4,6 @@ export const App = styled.div`
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
-  overflow: hidden;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
