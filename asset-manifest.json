@@ -7,8 +7,8 @@
     "static/media/ginger.png": "/nootris/static/media/ginger.dba0a6a7ced7dc6dfa6c.png",
     "static/media/virus.png": "/nootris/static/media/virus.4645d83824397b2dbeb4.png",
     "static/media/logo.svg": "/nootris/static/media/logo.9bc7fb2adc97284134f2bc4f4bcb7d5b.svg",
-    "static/media/basket.svg": "/nootris/static/media/basket.4c4e7909269617f63e9bb19812767c2f.svg",
     "index.html": "/nootris/index.html",
+    "static/media/basket.svg": "/nootris/static/media/basket.4c4e7909269617f63e9bb19812767c2f.svg",
     "main.ada740e9.js.map": "/nootris/static/js/main.ada740e9.js.map"
   },
   "entrypoints": [
