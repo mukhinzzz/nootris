@@ -30,11 +30,12 @@ export function Header() {
         <Logo />
         <Menu />
         <S.IconsContainer>
-          <S.MenuItemIcon src={phone} />
-          <S.MenuItemIcon src={profile} />
+          <S.MenuItemIcon src={phone} alt="Call us" />
+          <S.MenuItemIcon src={profile} alt="Your profile" />
           <Basket />
           <S.MenuItemIcon
             src={burger}
+            alt="Open menu"
             onClick={handleBurgerClick}
             className="burgerButton"
             isMenuOpen={isMenuOpen}

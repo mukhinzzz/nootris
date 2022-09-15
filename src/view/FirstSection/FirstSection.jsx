@@ -20,7 +20,10 @@ export function FirstSection() {
             Вашему организму во время пандемии {<br />} и сезонных простуд
           </S.AdditionalSubheader>
         </S.AdditionalInfo>
-        <S.ImageComposition src={imageComposition} />
+        <S.ImageComposition
+          src={imageComposition}
+          alt="nootris with ginger and lemon"
+        />
       </S.SectionContainer>
     </S.FirstSection>
   );

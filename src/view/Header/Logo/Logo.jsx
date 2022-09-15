@@ -4,7 +4,7 @@ import logo from "../../../img/logo.svg";
 export function Logo() {
   return (
     <S.Logo href="/">
-      <S.LogoIcon src={logo} />
+      <S.LogoIcon src={logo} alt="Nootris logo" />
     </S.Logo>
   );
 }
