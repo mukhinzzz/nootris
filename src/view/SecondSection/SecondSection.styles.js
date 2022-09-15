@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { colors } from "./../../constants/colors";
+import { media } from "../../constants/media";
 
 export const SecondSection = styled.section`
-  height: 926px;
+  min-height: 926px;
   padding-top: 110px;
   background: ${colors.black};
   box-sizing: border-box;
@@ -21,8 +22,13 @@ export const SectionHeader = styled.h2`
   font-weight: 700;
   font-size: 48px;
   color: ${colors.orange};
+
   &:first-line {
     color: ${colors.white};
+  }
+
+  @media ${media.mobile} {
+    font-size: 7vw;
   }
 `;
 
@@ -73,5 +79,9 @@ export const SubmitButton = styled.button`
 
   &:active {
     background-color: ${colors.lightOrange};
+  }
+
+  @media ${media.tablet} {
+    margin-bottom: 80px;
   }
 `;
